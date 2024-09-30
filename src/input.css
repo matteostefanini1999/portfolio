@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "CascadiaCodeSB";
+  src: url("../public/fonts/CascadiaCodePL-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "CascadiaCodeSL";
+  src: url("../public/fonts/CascadiaCodePL-SemiLight.ttf");
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
