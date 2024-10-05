@@ -25,22 +25,33 @@
         }
       </script>
 
+<style>
+  .bg-dotted-paper {
+    background-color: whitesmoke;
+    background-image: radial-gradient(circle, rgb(182, 190, 182), 1px, transparent 1px);
+    background-size: 25px 25px; /* Adjust size of the dots */
+    background-position: 0 0;
+  }
+</style>
+
 
   </head>
   
-  <body class="bg-yellow-50">
+  <body class="bg-dotted-paper">
     <div id="home" class="h-screen flex justify-center items-center">
 
 
 
       <div class="w-3/5 h-3/5 relative">
-        <h1 class="text-right font-cascadaSB text-7xl">Matteo Stefanini</h1>
-        <h2 class="text-right font-cascadaSL text-5xl">Portfolio</h2>
+
+        <h1 class="text-right font-cascadaSB text-7xl mb-2">Matteo Stefanini</h1>
+        <h2 class="text-right font-cascadaSL text-[14px] mb-2 ">Master's degree in Mechanical Engineering: Mechanics of Automation and Robotics.</h2>
+        <h2 class="text-right font-cascadaSL text-5xl text-blue-600">Portfolio</h2>
 
         <div class="absolute bottom-0 left-0">
          
           <a href="#projects"
-          class="block font-cascadaSL text-2xl hover:text-orange-500 hover:font-cascadaSB hover:cursor-pointer lg:hover:text-3xl"
+          class="text-blue-600 block font-cascadaSL text-2xl hover:text-orange-500 hover:font-cascadaSB hover:cursor-pointer lg:hover:text-3xl"
           >{Projects}</a
         >
           <a href="https://www.linkedin.com/in/matteo-stefanini-a2b390218/"
@@ -53,12 +64,6 @@
             >{Email}</a
           >
         </div>
-
-        <!-- <a
-          href="#projects"
-          class="absolute bottom-0 right-0 font-cascadaSL text-2xl hover:text-orange-500  hover:font-cascadaSB hover:cursor-pointer lg:hover:text-3xl"
-          >{Projects}</a
-        > -->
 
       </div>
     </div>
